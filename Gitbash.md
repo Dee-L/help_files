@@ -202,6 +202,7 @@ Within your profile you will specify aliases, variables, and other features that
 
 ### Pulling from Remote Repository
 
+* `git clone <url>` to clone a repo in the working directory after `git init`.
 * `git fetch origin` to synchronize local repository branch based on remote repository branch.
 * `git merge <branchname>` to synchronize the working directory with the local repository branch.
    * `git pull origin` does `git fetch origin` and `git merge <branchname>` in one step.
